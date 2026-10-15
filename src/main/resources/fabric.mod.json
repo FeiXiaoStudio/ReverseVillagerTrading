@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "reversevillagertrading",
+  "version": "${version}",
+  "name": "ReverseVillagerTrading",
+  "description": "",
+  "authors": [
+    "FeiXiaoStudio"
+  ],
+  "contact": {
+    "homepage": "https://github.com/FeiXiaoStudio",
+    "sources": "https://github.com/FeiXiaoStudio/ReverseVillagerTrading"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/reversevillagertrading/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "feixiaostudio.reversevillagertrading.ReverseVillagerTrading"
+    ],
+    "client": [
+      "feixiaostudio.reversevillagertrading.ReverseVillagerTradingClient"
+    ]
+  },
+  "mixins": [
+    "reversevillagertrading.mixins.json",
+    {
+      "config": "reversevillagertrading.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

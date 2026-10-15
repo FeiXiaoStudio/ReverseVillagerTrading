@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "feixiaostudio.reversevillagertrading.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MerchantEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}
