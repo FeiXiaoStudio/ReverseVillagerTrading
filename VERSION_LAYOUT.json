@@ -1,0 +1,132 @@
+{
+  "name": "ReverseVillagerTrading",
+  "ref": "mc/1.20.1-fabric",
+  "kind": "branch",
+  "base_commit": "e7db58d1619746e9c4e262413880131a49fb669f",
+  "default_version_branch": "mc/1.20.1-fabric",
+  "branches": [
+    "mc/1.20.1-fabric"
+  ],
+  "snapshots": [],
+  "mappings": [
+    {
+      "source_prefix": ".gitattributes",
+      "target_prefix": ".gitattributes"
+    },
+    {
+      "source_prefix": ".github/workflows/build.yml",
+      "target_prefix": ".github/workflows/build.yml"
+    },
+    {
+      "source_prefix": ".gitignore",
+      "target_prefix": ".gitignore"
+    },
+    {
+      "source_prefix": "LICENSE",
+      "target_prefix": "LICENSE"
+    },
+    {
+      "source_prefix": "README.md",
+      "target_prefix": "README.md"
+    },
+    {
+      "source_prefix": "SOURCE_MAP.md",
+      "target_prefix": "SOURCE_MAP.md"
+    },
+    {
+      "source_prefix": "THIRD_PARTY_LICENSES/Fabric-template-CC0.txt",
+      "target_prefix": "THIRD_PARTY_LICENSES/Fabric-template-CC0.txt"
+    },
+    {
+      "source_prefix": "THIRD_PARTY_NOTICES.md",
+      "target_prefix": "THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "source_prefix": "build.gradle",
+      "target_prefix": "build.gradle"
+    },
+    {
+      "source_prefix": "gradle.properties",
+      "target_prefix": "gradle.properties"
+    },
+    {
+      "source_prefix": "gradle/wrapper/gradle-wrapper.jar",
+      "target_prefix": "gradle/wrapper/gradle-wrapper.jar"
+    },
+    {
+      "source_prefix": "gradle/wrapper/gradle-wrapper.properties",
+      "target_prefix": "gradle/wrapper/gradle-wrapper.properties"
+    },
+    {
+      "source_prefix": "gradlew",
+      "target_prefix": "gradlew"
+    },
+    {
+      "source_prefix": "gradlew.bat",
+      "target_prefix": "gradlew.bat"
+    },
+    {
+      "source_prefix": "settings.gradle",
+      "target_prefix": "settings.gradle"
+    },
+    {
+      "source_prefix": "src/client/java/feixiaostudio/reversevillagertrading/ReverseVillagerTradingClient.java",
+      "target_prefix": "src/client/java/feixiaostudio/reversevillagertrading/ReverseVillagerTradingClient.java"
+    },
+    {
+      "source_prefix": "src/client/java/feixiaostudio/reversevillagertrading/mixin/client/ExampleClientMixin.java",
+      "target_prefix": "src/client/java/feixiaostudio/reversevillagertrading/mixin/client/ExampleClientMixin.java"
+    },
+    {
+      "source_prefix": "src/client/resources/reversevillagertrading.client.mixins.json",
+      "target_prefix": "src/client/resources/reversevillagertrading.client.mixins.json"
+    },
+    {
+      "source_prefix": "src/main/java/feixiaostudio/reversevillagertrading/ReverseVillagerTrading.java",
+      "target_prefix": "src/main/java/feixiaostudio/reversevillagertrading/ReverseVillagerTrading.java"
+    },
+    {
+      "source_prefix": "src/main/java/feixiaostudio/reversevillagertrading/mixin/MerchantEntityMixin.java",
+      "target_prefix": "src/main/java/feixiaostudio/reversevillagertrading/mixin/MerchantEntityMixin.java"
+    },
+    {
+      "source_prefix": "src/main/resources/assets/reversevillagertrading/icon.png",
+      "target_prefix": "src/main/resources/assets/reversevillagertrading/icon.png"
+    },
+    {
+      "source_prefix": "src/main/resources/fabric.mod.json",
+      "target_prefix": "src/main/resources/fabric.mod.json"
+    },
+    {
+      "source_prefix": "src/main/resources/reversevillagertrading.mixins.json",
+      "target_prefix": "src/main/resources/reversevillagertrading.mixins.json"
+    },
+    {
+      "source_prefix": "README.md",
+      "target_prefix": "docs/original-layout/README.md"
+    },
+    {
+      "source_prefix": "SOURCE_MAP.md",
+      "target_prefix": "docs/original-layout/SOURCE_MAP.md"
+    }
+  ],
+  "metadata": {
+    "name": "mc/1.20.1-fabric",
+    "parent_commit": "e7db58d1619746e9c4e262413880131a49fb669f",
+    "rewrite_generated_docs": [
+      "README.md",
+      "SOURCE_MAP.md"
+    ],
+    "keep_source_bytes": true,
+    "exclude_other_version_directories": true,
+    "promote_to_root": false,
+    "mod_version": "1.0.1",
+    "source_prefix": ".",
+    "minecraft_version": "1.20.1",
+    "shared_root_files": [],
+    "loader": "fabric",
+    "group": "mod",
+    "old_name": "mc/1.20.1-fabric"
+  },
+  "collision_preservation": []
+}

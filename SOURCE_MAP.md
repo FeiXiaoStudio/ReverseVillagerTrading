@@ -1,11 +1,5 @@
-# Source map
+# Source provenance
 
-This private repository combines versions/variants of one gameplay project. Import/license commits use FeiXiaoStudio <201218585+FeiXiaoStudio@users.noreply.github.com>. Existing history and original authors remain attributed.
+This tree was reorganized from commit `e7db58d1619746e9c4e262413880131a49fb669f`. See [VERSION_LAYOUT.json](VERSION_LAYOUT.json) for exact source-to-destination mappings and version metadata. Original source maps and instructions remain in Git history and, when selected, under docs/original-layout/.
 
-| Repository path | Original workspace source | Ref |
-|---|---|---|
-| . | Mod/reversevillagertrading-1.20.1fabric | working tree |
-
-Only source, resources, project build scripts and Gradle wrapper tooling are imported. Generated caches, build outputs, run data, IDE files, bundled project ZIPs and nested Git stores are excluded.
-
-FeiXiaoStudio-authored contributions: All Rights Reserved. Original third-party materials retain their terms and credits. See THIRD_PARTY_NOTICES.md and THIRD_PARTY_LICENSES/.
+All original commits and author identities remain unchanged.
